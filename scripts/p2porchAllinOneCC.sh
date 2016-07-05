@@ -18,8 +18,8 @@ component=$7
 sh p2pinstallOrchestratorApp.sh
 
 # Step 2
-sh p2porchestratorgenKeyPair.sh keyName componentAdminUsername componentAdminPassword componentBaseUrl orchestratorbaseurl email component
+sh p2porchestratorgenKeyPair.sh keyName componentAdminUsername componentAdminPassword componentBaseUrl orchestratorbaseurl component email
 
 # Step3 
-sh p2porchestratorBootstrapChefCompliance.sh keyName componentAdminUsername componentAdminPassword componentBaseUrl orchestratorbaseurl email "chefcc"
+sh p2porchestratorBootstrapChefCompliance.sh keyName componentAdminUsername componentAdminPassword componentBaseUrl orchestratorbaseurl "chefcc" email
 

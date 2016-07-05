@@ -4,8 +4,9 @@ componentAdminUsername=$2
 componentAdminPassword=$3
 componentBaseUrl=$4
 orchestratorbaseurl=$5
-email=$6
-component=$7
+component=$6
+email=$7
+
 
 URL="http://$orchestratorbaseurl:33001/keys/$component/$componentAdminUsername/keypairs"
 echo $URL

@@ -62,7 +62,11 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/scripts/p2porchAllinOneCC.sh"
+            "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/scripts/p2porchAllinOneCC.sh",
+            "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/scripts/p2pinstallOrchestratorApp.sh",
+
+            "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/scripts/p2porchestratorgenKeyPair.sh",
+            "https://github.com/sysgain/cloudtry-p2p-public-artifacts/blob/master/scripts/p2porchestratorBootstrapChefCompliance.sh"
           ],
           "commandToExecute": "[concat('sh p2porchAllinOneCC.sh ',parameters('keyName'),' ', parameters('componentAdminUsername'),' ',parameters('componentAdminPassword'),' ',parameters('componentBaseUrl'),' ',parameters('orchestratorbaseurl'),' ',parameters('email'),' ',parameters('component'))]" 
                  }

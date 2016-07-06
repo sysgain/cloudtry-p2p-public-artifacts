@@ -64,7 +64,7 @@
           "fileUris": [
             "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/scripts/p2porchAllinOneCC.sh"
           ],
-          "commandToExecute": "[concat('sh p2porchAllinOneCC.sh ',parameters('keyName'),' ', parameters('componentAdminUsername'),' ',parameters('componentAdminPassword'),' ',parameters('componentBaseUrl'),' ',parameters('orchestratorbaseurl'),' ',parameters('component'),' ',parameters('email'))]" 
+          "commandToExecute": "[concat('sh p2porchAllinOneCC.sh ',parameters('keyName'),' ', parameters('componentAdminUsername'),' ',parameters('componentAdminPassword'),' ',parameters('componentBaseUrl'),' ',parameters('orchestratorbaseurl'),' ',parameters('email'),' ',parameters('component'))]" 
                  }
       }
     }

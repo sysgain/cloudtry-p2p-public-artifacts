@@ -120,7 +120,7 @@
     },
     "variables": {
         "clientazureVMUtilsName": "vmCustomizationClientExt",
-        "clientazureVMUtilsScriptUrl": "https://raw.githubusercontent.com/boobalana/bbrepo1/delivery-branch/provision.sh",
+        "clientazureVMUtilsScriptUrl": "https://raw.githubusercontent.com/sysgain/cloudtry-p2p-public-artifacts/master/templates/chef/test/provision.sh",
         "clientazureVMUtilsScriptUrl1": "https://raw.githubusercontent.com/boobalana/bbrepo1/delivery-branch/ssh_install.sh",
         "imagePublisher": "Canonical",
         "imageOffer": "UbuntuServer",
